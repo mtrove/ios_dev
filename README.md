@@ -6,4 +6,6 @@ a ios dev begginer learning code
 hello world one 
 hello world two 
 add ...
+2014年01月06日
+work on flash card project
 
