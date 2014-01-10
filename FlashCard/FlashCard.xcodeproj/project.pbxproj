@@ -13,7 +13,6 @@
 		16378EBB187ACF36007BFB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16378EB9187ACF36007BFB94 /* InfoPlist.strings */; };
 		16378EBD187ACF36007BFB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16378EBC187ACF36007BFB94 /* main.m */; };
 		16378EC1187ACF36007BFB94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16378EC0187ACF36007BFB94 /* AppDelegate.m */; };
-		16378EC4187ACF36007BFB94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16378EC2187ACF36007BFB94 /* Main.storyboard */; };
 		16378EC7187ACF36007BFB94 /* FCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16378EC6187ACF36007BFB94 /* FCViewController.m */; };
 		16378EC9187ACF36007BFB94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16378EC8187ACF36007BFB94 /* Images.xcassets */; };
 		16378ED0187ACF36007BFB94 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16378ECF187ACF36007BFB94 /* XCTest.framework */; };
@@ -26,6 +25,9 @@
 		16378EEE187AD759007BFB94 /* FCResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16378EEC187AD759007BFB94 /* FCResultViewController.m */; };
 		16378EEF187AD759007BFB94 /* FCResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16378EED187AD759007BFB94 /* FCResultViewController.xib */; };
 		16378EF2187ADBF9007BFB94 /* FCCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 16378EF1187ADBF9007BFB94 /* FCCard.m */; };
+		16378EF5187AEBCE007BFB94 /* FCAnswerCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 16378EF4187AEBCE007BFB94 /* FCAnswerCard.m */; };
+		1697FB2818801E9B00FCE943 /* FCGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FB2718801E9B00FCE943 /* FCGame.m */; };
+		1697FB2C18802AE000FCE943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1697FB2B18802AE000FCE943 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +51,6 @@
 		16378EBE187ACF36007BFB94 /* FlashCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashCard-Prefix.pch"; sourceTree = "<group>"; };
 		16378EBF187ACF36007BFB94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16378EC0187ACF36007BFB94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		16378EC3187ACF36007BFB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16378EC5187ACF36007BFB94 /* FCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCViewController.h; sourceTree = "<group>"; };
 		16378EC6187ACF36007BFB94 /* FCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCViewController.m; sourceTree = "<group>"; };
 		16378EC8187ACF36007BFB94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -66,6 +67,11 @@
 		16378EED187AD759007BFB94 /* FCResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FCResultViewController.xib; sourceTree = "<group>"; };
 		16378EF0187ADBF9007BFB94 /* FCCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCCard.h; sourceTree = "<group>"; };
 		16378EF1187ADBF9007BFB94 /* FCCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCCard.m; sourceTree = "<group>"; };
+		16378EF3187AEBCE007BFB94 /* FCAnswerCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCAnswerCard.h; sourceTree = "<group>"; };
+		16378EF4187AEBCE007BFB94 /* FCAnswerCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCAnswerCard.m; sourceTree = "<group>"; };
+		1697FB2618801E9B00FCE943 /* FCGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCGame.h; sourceTree = "<group>"; };
+		1697FB2718801E9B00FCE943 /* FCGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCGame.m; sourceTree = "<group>"; };
+		1697FB2B18802AE000FCE943 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,8 +180,12 @@
 				16378EC6187ACF36007BFB94 /* FCViewController.m */,
 				16378EBF187ACF36007BFB94 /* AppDelegate.h */,
 				16378EC0187ACF36007BFB94 /* AppDelegate.m */,
-				16378EC2187ACF36007BFB94 /* Main.storyboard */,
+				1697FB2B18802AE000FCE943 /* Main.storyboard */,
 				16378EF0187ADBF9007BFB94 /* FCCard.h */,
+				16378EF3187AEBCE007BFB94 /* FCAnswerCard.h */,
+				16378EF4187AEBCE007BFB94 /* FCAnswerCard.m */,
+				1697FB2618801E9B00FCE943 /* FCGame.h */,
+				1697FB2718801E9B00FCE943 /* FCGame.m */,
 				16378EF1187ADBF9007BFB94 /* FCCard.m */,
 			);
 			name = Classes;
@@ -258,9 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				16378EC9187ACF36007BFB94 /* Images.xcassets in Resources */,
+				1697FB2C18802AE000FCE943 /* Main.storyboard in Resources */,
 				16378EBB187ACF36007BFB94 /* InfoPlist.strings in Resources */,
 				16378EEF187AD759007BFB94 /* FCResultViewController.xib in Resources */,
-				16378EC4187ACF36007BFB94 /* Main.storyboard in Resources */,
 				16378EEA187AD3C3007BFB94 /* FCCardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +294,9 @@
 				16378EC1187ACF36007BFB94 /* AppDelegate.m in Sources */,
 				16378EEE187AD759007BFB94 /* FCResultViewController.m in Sources */,
 				16378EBD187ACF36007BFB94 /* main.m in Sources */,
+				16378EF5187AEBCE007BFB94 /* FCAnswerCard.m in Sources */,
 				16378EF2187ADBF9007BFB94 /* FCCard.m in Sources */,
+				1697FB2818801E9B00FCE943 /* FCGame.m in Sources */,
 				16378EE9187AD3C3007BFB94 /* FCCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,14 +326,6 @@
 				16378EBA187ACF36007BFB94 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		16378EC2187ACF36007BFB94 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				16378EC3187ACF36007BFB94 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		16378ED8187ACF36007BFB94 /* InfoPlist.strings */ = {
@@ -496,6 +500,7 @@
 				16378EE1187ACF36007BFB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16378EE2187ACF36007BFB94 /* Build configuration list for PBXNativeTarget "FlashCardTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				16378EE4187ACF36007BFB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

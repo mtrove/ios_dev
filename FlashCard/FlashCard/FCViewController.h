@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface FCViewController : UIViewController
+
 -(IBAction)showState:(id)sender;
 -(IBAction)showCaptial:(id)sender;
 @end
